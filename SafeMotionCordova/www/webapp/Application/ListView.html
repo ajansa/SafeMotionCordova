@@ -1,0 +1,27 @@
+﻿<!-- List View -->
+<div id="divServiceUserList" ng-controller="listController">
+
+    <!-- ************ -->
+    <!-- list row -->
+    <!-- ************ -->
+    <div class="listItem" ng-repeat="serviceuser in serviceUserList track by $index">
+
+        <div class="row">
+            <div class="listItemName col-sm-5 col-xs-8">
+                <a href="#/detail:{{serviceuser.id}}">{{serviceuser.firstName}} {{serviceuser.lastName}}</a>
+            </div>
+            <div class="listItemStatus col-sm-7 col-xs-4 text-right">
+                <!-- battery level -->
+                <span class="glyphicon glyphicon-flash" style="color: red"></span>
+                <span class="listItemText hidden-xs">{{serviceuser.batteryLevel}}% battery </span>
+                <!-- signal -->
+                <span class="glyphicon glyphicon-signal" style="color: yellow"></span>
+                <span class="listItemText hidden-xs">Online </span>
+                <!-- alarm -->
+                <span class="glyphicon glyphicon-exclamation-sign" style="color: green"></span>
+                <span class="listItemText hidden-xs">{{serviceuser.activeAlarms}} active alarm </span>
+            </div>
+        </div>
+    </div>
+
+</div>

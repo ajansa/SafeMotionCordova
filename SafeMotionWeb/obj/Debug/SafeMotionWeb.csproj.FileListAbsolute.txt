@@ -1,0 +1,6 @@
+C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionWeb\bin\SafeMotionWeb.dll.config
+C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionWeb\bin\SafeMotionWeb.dll
+C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionWeb\bin\SafeMotionWeb.pdb
+C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionWeb\obj\Debug\SafeMotionWeb.dll
+C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionWeb\obj\Debug\SafeMotionWeb.pdb
+C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionWeb\obj\Debug\SafeMotionWeb.csprojResolveAssemblyReference.cache

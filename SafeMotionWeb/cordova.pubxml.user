@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionWeb\..\SafeMotionCordova\www\webapp</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Application/app.css">
+      <publishTime>10/06/2015 01:41:29</publishTime>
+    </File>
+    <File Include="Application/Application.js">
+      <publishTime>10/06/2015 01:23:33</publishTime>
+    </File>
+    <File Include="Application/DetailController.js">
+      <publishTime>10/06/2015 01:23:33</publishTime>
+    </File>
+    <File Include="Application/DetailView.html">
+      <publishTime>10/06/2015 01:48:09</publishTime>
+    </File>
+    <File Include="Application/GoogleMapService.js">
+      <publishTime>10/06/2015 01:23:33</publishTime>
+    </File>
+    <File Include="Application/IServiceUserScopeInterface.js">
+      <publishTime>10/06/2015 01:23:33</publishTime>
+    </File>
+    <File Include="Application/ListController.js">
+      <publishTime>10/06/2015 01:23:33</publishTime>
+    </File>
+    <File Include="Application/ListView.html">
+      <publishTime>10/06/2015 01:23:16</publishTime>
+    </File>
+    <File Include="Application/LoginController.js">
+      <publishTime>10/06/2015 01:23:33</publishTime>
+    </File>
+    <File Include="Application/LoginView.html">
+      <publishTime>10/06/2015 00:59:20</publishTime>
+    </File>
+    <File Include="Application/MockupStorageService.js">
+      <publishTime>10/06/2015 01:23:33</publishTime>
+    </File>
+    <File Include="Application/ServiceUserModel.js">
+      <publishTime>10/06/2015 01:23:33</publishTime>
+    </File>
+    <File Include="Application/UtilsService.js">
+      <publishTime>10/06/2015 01:23:33</publishTime>
+    </File>
+    <File Include="Application/_app.js">
+      <publishTime>10/06/2015 01:23:33</publishTime>
+    </File>
+    <File Include="bin/SafeMotionWeb.dll">
+      <publishTime>10/06/2015 01:25:48</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>10/05/2015 20:10:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>10/05/2015 20:10:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>10/05/2015 20:10:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>10/05/2015 20:10:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>10/05/2015 20:10:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>10/05/2015 20:10:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/05/2015 20:10:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/05/2015 20:10:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/05/2015 20:10:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/05/2015 20:10:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>10/05/2015 20:10:09</publishTime>
+    </File>
+    <File Include="Images/alarm_green.jpg">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/alarm_red.jpg">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/battery_red.png">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/battery_yellow.png">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/carecam.jpg">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/loginBackground.png">
+      <publishTime>10/01/2015 12:05:46</publishTime>
+    </File>
+    <File Include="Images/loginBackgroundMobile.png">
+      <publishTime>10/01/2015 12:06:11</publishTime>
+    </File>
+    <File Include="Images/logo_icon.png">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/safeMotionLogo.png">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/serviceuser.png">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/serviceuser2.png">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/serviceuser_square.jpg">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/settings.png">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/signal_green.jpg">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/signal_yellow.png">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/watchmodel.jpg">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/whitebackground.png">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="Images/whitebackground2.png">
+      <publishTime>09/29/2015 02:37:14</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>10/06/2015 01:43:02</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/05/2015 20:11:43</publishTime>
+    </File>
+    <File Include="Scripts/angular-mocks.js">
+      <publishTime>10/05/2015 20:10:21</publishTime>
+    </File>
+    <File Include="Scripts/angular-route.js">
+      <publishTime>10/05/2015 20:10:29</publishTime>
+    </File>
+    <File Include="Scripts/angular-route.min.js">
+      <publishTime>10/05/2015 20:10:29</publishTime>
+    </File>
+    <File Include="Scripts/angular-route.min.js.map">
+      <publishTime>10/05/2015 20:10:28</publishTime>
+    </File>
+    <File Include="Scripts/angular.js">
+      <publishTime>10/05/2015 20:10:21</publishTime>
+    </File>
+    <File Include="Scripts/angular.min.js">
+      <publishTime>10/05/2015 20:10:21</publishTime>
+    </File>
+    <File Include="Scripts/angular.min.js.map">
+      <publishTime>10/05/2015 20:10:21</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>10/05/2015 20:10:09</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>10/05/2015 20:10:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.js">
+      <publishTime>10/05/2015 20:09:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.min.js">
+      <publishTime>10/05/2015 20:09:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.min.map">
+      <publishTime>10/05/2015 20:09:42</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>10/06/2015 01:25:48</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

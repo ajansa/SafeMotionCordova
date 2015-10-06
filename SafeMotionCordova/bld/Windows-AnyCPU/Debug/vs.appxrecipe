@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANJA-PC</Machine>
+    <WindowsUser>Andreas</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>io.cordova.myapp8f50e1</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>52426716125CC963E3E13B1BFAB5A58C77E915C1FB4201BB4DA277E102131444</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>io.cordova.myapp8f50e1_1.0.0.0_neutral__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>io.cordova.myapp8f50e1_h35559jr9hy9m!io.cordova.myapp8f50e1</RegisteredUserModeAppID>
+    <RegisteredPackageID>io.cordova.myapp8f50e1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T23:07:48.925</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T23:07:45.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T23:07:45.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T23:07:45.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T23:07:45.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2015-10-05T23:07:44.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T23:07:45.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2015-10-05T23:07:44.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T23:07:45.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T23:07:45.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\battery_red.png">
+      <PackagePath>www\webapp\Images\battery_red.png</PackagePath>
+      <Modified>2015-10-05T23:07:45.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\battery_yellow.png">
+      <PackagePath>www\webapp\Images\battery_yellow.png</PackagePath>
+      <Modified>2015-10-05T23:07:45.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\loginBackground.png">
+      <PackagePath>www\webapp\Images\loginBackground.png</PackagePath>
+      <Modified>2015-10-05T23:07:45.246</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\loginBackgroundMobile.png">
+      <PackagePath>www\webapp\Images\loginBackgroundMobile.png</PackagePath>
+      <Modified>2015-10-05T23:07:45.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\logo_icon.png">
+      <PackagePath>www\webapp\Images\logo_icon.png</PackagePath>
+      <Modified>2015-10-05T23:07:45.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\safeMotionLogo.png">
+      <PackagePath>www\webapp\Images\safeMotionLogo.png</PackagePath>
+      <Modified>2015-10-05T23:07:45.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\serviceuser.png">
+      <PackagePath>www\webapp\Images\serviceuser.png</PackagePath>
+      <Modified>2015-10-05T23:07:45.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\serviceuser2.png">
+      <PackagePath>www\webapp\Images\serviceuser2.png</PackagePath>
+      <Modified>2015-10-05T23:07:45.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\settings.png">
+      <PackagePath>www\webapp\Images\settings.png</PackagePath>
+      <Modified>2015-10-05T23:07:45.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\signal_yellow.png">
+      <PackagePath>www\webapp\Images\signal_yellow.png</PackagePath>
+      <Modified>2015-10-05T23:07:45.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\whitebackground.png">
+      <PackagePath>www\webapp\Images\whitebackground.png</PackagePath>
+      <Modified>2015-10-05T23:07:45.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\whitebackground2.png">
+      <PackagePath>www\webapp\Images\whitebackground2.png</PackagePath>
+      <Modified>2015-10-05T23:07:45.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2015-10-05T23:07:46.472</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\Application.js">
+      <PackagePath>www\webapp\Application\Application.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\DetailController.js">
+      <PackagePath>www\webapp\Application\DetailController.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\GoogleMapService.js">
+      <PackagePath>www\webapp\Application\GoogleMapService.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\IServiceUserScopeInterface.js">
+      <PackagePath>www\webapp\Application\IServiceUserScopeInterface.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\ListController.js">
+      <PackagePath>www\webapp\Application\ListController.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\LoginController.js">
+      <PackagePath>www\webapp\Application\LoginController.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\MockupStorageService.js">
+      <PackagePath>www\webapp\Application\MockupStorageService.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\ServiceUserModel.js">
+      <PackagePath>www\webapp\Application\ServiceUserModel.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\UtilsService.js">
+      <PackagePath>www\webapp\Application\UtilsService.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\_app.js">
+      <PackagePath>www\webapp\Application\_app.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Scripts\angular-mocks.js">
+      <PackagePath>www\webapp\Scripts\angular-mocks.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Scripts\angular-route.js">
+      <PackagePath>www\webapp\Scripts\angular-route.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Scripts\angular-route.min.js">
+      <PackagePath>www\webapp\Scripts\angular-route.min.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Scripts\angular.js">
+      <PackagePath>www\webapp\Scripts\angular.js</PackagePath>
+      <Modified>2015-10-05T23:07:45.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Scripts\angular.min.js">
+      <PackagePath>www\webapp\Scripts\angular.min.js</PackagePath>
+      <Modified>2015-10-05T23:07:46.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Scripts\bootstrap.js">
+      <PackagePath>www\webapp\Scripts\bootstrap.js</PackagePath>
+      <Modified>2015-10-05T23:07:46.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Scripts\bootstrap.min.js">
+      <PackagePath>www\webapp\Scripts\bootstrap.min.js</PackagePath>
+      <Modified>2015-10-05T23:07:46.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Scripts\jquery-2.1.4.js">
+      <PackagePath>www\webapp\Scripts\jquery-2.1.4.js</PackagePath>
+      <Modified>2015-10-05T23:07:46.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Scripts\jquery-2.1.4.min.js">
+      <PackagePath>www\webapp\Scripts\jquery-2.1.4.min.js</PackagePath>
+      <Modified>2015-10-05T23:07:46.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2015-10-05T23:07:45.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\DetailView.html">
+      <PackagePath>www\webapp\Application\DetailView.html</PackagePath>
+      <Modified>2015-10-05T23:07:45.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\ListView.html">
+      <PackagePath>www\webapp\Application\ListView.html</PackagePath>
+      <Modified>2015-10-05T23:07:45.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\LoginView.html">
+      <PackagePath>www\webapp\Application\LoginView.html</PackagePath>
+      <Modified>2015-10-05T23:07:45.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\index.html">
+      <PackagePath>www\webapp\index.html</PackagePath>
+      <Modified>2015-10-05T23:07:45.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Application\app.css">
+      <PackagePath>www\webapp\Application\app.css</PackagePath>
+      <Modified>2015-10-05T23:07:45.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Content\bootstrap-theme.css">
+      <PackagePath>www\webapp\Content\bootstrap-theme.css</PackagePath>
+      <Modified>2015-10-05T23:07:45.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Content\bootstrap-theme.min.css">
+      <PackagePath>www\webapp\Content\bootstrap-theme.min.css</PackagePath>
+      <Modified>2015-10-05T23:07:45.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Content\bootstrap.css">
+      <PackagePath>www\webapp\Content\bootstrap.css</PackagePath>
+      <Modified>2015-10-05T23:07:45.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Content\bootstrap.min.css">
+      <PackagePath>www\webapp\Content\bootstrap.min.css</PackagePath>
+      <Modified>2015-10-05T23:07:45.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\bin\SafeMotionWeb.dll">
+      <PackagePath>www\webapp\bin\SafeMotionWeb.dll</PackagePath>
+      <Modified>2015-10-05T23:07:45.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Content\bootstrap-theme.css.map">
+      <PackagePath>www\webapp\Content\bootstrap-theme.css.map</PackagePath>
+      <Modified>2015-10-05T23:07:45.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Content\bootstrap.css.map">
+      <PackagePath>www\webapp\Content\bootstrap.css.map</PackagePath>
+      <Modified>2015-10-05T23:07:45.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Scripts\angular-route.min.js.map">
+      <PackagePath>www\webapp\Scripts\angular-route.min.js.map</PackagePath>
+      <Modified>2015-10-05T23:07:45.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Scripts\angular.min.js.map">
+      <PackagePath>www\webapp\Scripts\angular.min.js.map</PackagePath>
+      <Modified>2015-10-05T23:07:45.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Scripts\jquery-2.1.4.min.map">
+      <PackagePath>www\webapp\Scripts\jquery-2.1.4.min.map</PackagePath>
+      <Modified>2015-10-05T23:07:45.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>www\webapp\fonts\glyphicons-halflings-regular.eot</PackagePath>
+      <Modified>2015-10-05T23:07:45.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>www\webapp\fonts\glyphicons-halflings-regular.svg</PackagePath>
+      <Modified>2015-10-05T23:07:45.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>www\webapp\fonts\glyphicons-halflings-regular.ttf</PackagePath>
+      <Modified>2015-10-05T23:07:45.217</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>www\webapp\fonts\glyphicons-halflings-regular.woff</PackagePath>
+      <Modified>2015-10-05T23:07:45.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>www\webapp\fonts\glyphicons-halflings-regular.woff2</PackagePath>
+      <Modified>2015-10-05T23:07:45.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\alarm_green.jpg">
+      <PackagePath>www\webapp\Images\alarm_green.jpg</PackagePath>
+      <Modified>2015-10-05T23:07:45.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\alarm_red.jpg">
+      <PackagePath>www\webapp\Images\alarm_red.jpg</PackagePath>
+      <Modified>2015-10-05T23:07:45.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\carecam.jpg">
+      <PackagePath>www\webapp\Images\carecam.jpg</PackagePath>
+      <Modified>2015-10-05T23:07:45.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\serviceuser_square.jpg">
+      <PackagePath>www\webapp\Images\serviceuser_square.jpg</PackagePath>
+      <Modified>2015-10-05T23:07:45.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\signal_green.jpg">
+      <PackagePath>www\webapp\Images\signal_green.jpg</PackagePath>
+      <Modified>2015-10-05T23:07:45.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\Images\watchmodel.jpg">
+      <PackagePath>www\webapp\Images\watchmodel.jpg</PackagePath>
+      <Modified>2015-10-05T23:07:45.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\packages.config">
+      <PackagePath>www\webapp\packages.config</PackagePath>
+      <Modified>2015-10-05T23:07:45.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\www\webapp\web.config">
+      <PackagePath>www\webapp\web.config</PackagePath>
+      <Modified>2015-10-05T23:07:45.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2015-10-05T23:07:47.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andreas\Source\Repos\SafeMotionCordova\SafeMotionCordova\platforms\windows\build\windows\debug\anycpu\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-10-05T23:07:48.722</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
