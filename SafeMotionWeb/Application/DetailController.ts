@@ -19,18 +19,16 @@ module safemotion {
         public static $inject = [
             '$scope',
             '$routeParams', 
+            '$http',
             'storage'
         ];
 
         // dependencies are injected via AngularJS $injector
         // controller's name is registered in Application.ts and specified from ng-controller attribute in index.html
-        constructor(private $scope: IServiceUserScope, $routeParams, private storage: MockupStorage)
+        constructor(private $scope: DetailScopeInterface, $routeParams, $http, private storage: StorageService)
         {
-            $scope.serviceUserList = storage.list();
-
-            var id: number = +$routeParams.detailId.replace(":", "");
-            $scope.serviceUser = storage.list()[id];
-            var currentServiceUser = $scope.serviceUser;
+            var id: string = $routeParams.detailId.replace(":", "");
+            storage.get($scope, $http, id);
 
             // initialise map after profile picture is loaded
             $('#imgProfilePicture').load(function () {
@@ -38,19 +36,19 @@ module safemotion {
                 // resize according to profile picture size. "this" is this profile picture with id "imgProfilePicure"
                 $('#divMap').css({ 'width': this.width + 'px' }).css({ 'height': this.height + 'px' });
 
-                var lat: number = $scope.serviceUser.latitude;
-                var long: number = $scope.serviceUser.longitude;
+                var lat: number = $scope.serviceUser.Latitude;
+                var long: number = $scope.serviceUser.Longitude;
 
                 // register map div and map in global variable for later usage
                 serviceUserMap = new GoogleMap($('#divMap').get(0), lat, long, 14);
-                serviceUserMap.setMarker("Location of Service User: " + currentServiceUser.firstName + " " + currentServiceUser.lastName, lat, long); 
+                serviceUserMap.setMarker("Location of Service User", lat, long); 
 
                 // resize Map in case window gets resized
                 if (window.addEventListener) {
                     window.addEventListener('resize', function () {
                         if (serviceUserMap) {
                             serviceUserMap.setCenter(lat, long);
-                            new Utils().resizeMap();
+                            new UtilsService().resizeMap();
                         }
                     }, true);
                 } else {

@@ -23,15 +23,30 @@
     <script src="./Scripts/angular-route.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
 
-    <!-- All app scripts -->
-    <script src="./Application/ServiceUserModel.js"></script>
-    <script src="./Application/MockupStorageService.js"></script>
-    <script src="./Application/GoogleMapService.js"></script>
+    <!-- ******************* -->
+    <!-- Application scripts -->
+    <!-- ******************* -->
+
+    <!-- Services -->    
     <script src="./Application/UtilsService.js"></script>
-    <script src="./Application/IServiceUserScopeInterface.js"></script>
+    <script src="./Application/StorageService.js"></script>
+    <script src="./Application/StorageServiceMockup.js"></script>
+    <script src="./Application/GoogleMapService.js"></script>
+
+    <!-- Login View Context  -->
     <script src="./Application/LoginController.js"></script>
-    <script src="./Application/DetailController.js"></script>
+
+    <!-- List View Context  -->
+    <script src="./Application/ListViewModel.js"></script>
+    <script src="./Application/ListScopeInterface.js"></script>
     <script src="./Application/ListController.js"></script>
+
+    <!-- Detail View Context  -->
+    <script src="./Application/DetailViewModel.js"></script>
+    <script src="./Application/DetailViewScopeInterface.js"></script>
+    <script src="./Application/DetailController.js"></script>
+
+    <!-- Start Application -->
     <script src="./Application/Application.js"></script>
 
 </head>

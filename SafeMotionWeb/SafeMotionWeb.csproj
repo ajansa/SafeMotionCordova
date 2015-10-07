@@ -26,6 +26,7 @@
     <Content Include="Application\DetailView.html" />
     <Content Include="Application\ListView.html" />
     <Content Include="Application\LoginView.html" />
+    <TypeScriptCompile Include="Application\StorageServiceInterface.ts" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -36,9 +37,11 @@
     <Content Include="Images\battery_red.png" />
     <Content Include="Images\battery_yellow.png" />
     <Content Include="Images\carecam.jpg" />
+    <Content Include="Images\facebook_icon.jpg" />
+    <Content Include="Images\google_icon.jpg" />
+    <Content Include="Images\logo_icon.png" />
     <Content Include="Images\loginBackground.png" />
     <Content Include="Images\loginBackgroundMobile.png" />
-    <Content Include="Images\logo_icon.png" />
     <Content Include="Images\safeMotionLogo.png" />
     <Content Include="Images\serviceuser.png" />
     <Content Include="Images\serviceuser2.png" />
@@ -76,12 +79,15 @@
   <ItemGroup>
     <TypeScriptCompile Include="Application\Application.ts" />
     <TypeScriptCompile Include="Application\DetailController.ts" />
+    <TypeScriptCompile Include="Application\ListScopeInterface.ts" />
+    <TypeScriptCompile Include="Application\ListViewModel.ts" />
     <TypeScriptCompile Include="Application\GoogleMapService.ts" />
-    <TypeScriptCompile Include="Application\IServiceUserScopeInterface.ts" />
+    <TypeScriptCompile Include="Application\DetailScopeInterface.ts" />
     <TypeScriptCompile Include="Application\ListController.ts" />
     <TypeScriptCompile Include="Application\LoginController.ts" />
-    <TypeScriptCompile Include="Application\MockupStorageService.ts" />
-    <TypeScriptCompile Include="Application\ServiceUserModel.ts" />
+    <TypeScriptCompile Include="Application\StorageService.ts" />
+    <TypeScriptCompile Include="Application\StorageServiceMockup.ts" />
+    <TypeScriptCompile Include="Application\DetailViewModel.ts" />
     <TypeScriptCompile Include="Application\UtilsService.ts" />
     <TypeScriptCompile Include="Application\_app.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />

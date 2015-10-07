@@ -15,7 +15,8 @@ body { font-size: 1.3vw; font-family: Raleway, Calibri, Verdana; background-colo
 #divForgotPwd { width: 100%; text-align: right; margin-top: 10px; cursor: pointer; color: #A81010;  }
 #divEmailLoginBtn { background-color: #A81010; }
 #spanRegister { cursor: pointer; color: #A81010; }
-.loginButton { width: 100%; height: 40px; text-align: center; margin-top: 10px; padding-top: 5px; font-weight: bold; font-size: 20px; color: white;  cursor: pointer; }
+.loginButton { position: relative; width: 100%; height: 40px; text-align: center; margin-top: 10px; padding-top: 5px; font-weight: bold; font-size: 20px; color: white;  cursor: pointer; }
+.loginButtonIcon { height: 24px; position: absolute; top: 0px; left: 0px; margin: 8px; }
 .loginField { width: 100%; height: 40px; margin-top: 10px; padding-left: 10px; }
 
 /* Navigation Bar */

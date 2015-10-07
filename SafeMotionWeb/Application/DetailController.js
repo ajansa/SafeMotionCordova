@@ -10,28 +10,26 @@ var safemotion;
     var DetailController = (function () {
         // dependencies are injected via AngularJS $injector
         // controller's name is registered in Application.ts and specified from ng-controller attribute in index.html
-        function DetailController($scope, $routeParams, storage) {
+        function DetailController($scope, $routeParams, $http, storage) {
             this.$scope = $scope;
             this.storage = storage;
-            $scope.serviceUserList = storage.list();
-            var id = +$routeParams.detailId.replace(":", "");
-            $scope.serviceUser = storage.list()[id];
-            var currentServiceUser = $scope.serviceUser;
+            var id = $routeParams.detailId.replace(":", "");
+            storage.get($scope, $http, id);
             // initialise map after profile picture is loaded
             $('#imgProfilePicture').load(function () {
                 // resize according to profile picture size. "this" is this profile picture with id "imgProfilePicure"
                 $('#divMap').css({ 'width': this.width + 'px' }).css({ 'height': this.height + 'px' });
-                var lat = $scope.serviceUser.latitude;
-                var long = $scope.serviceUser.longitude;
+                var lat = $scope.serviceUser.Latitude;
+                var long = $scope.serviceUser.Longitude;
                 // register map div and map in global variable for later usage
                 serviceUserMap = new safemotion.GoogleMap($('#divMap').get(0), lat, long, 14);
-                serviceUserMap.setMarker("Location of Service User: " + currentServiceUser.firstName + " " + currentServiceUser.lastName, lat, long);
+                serviceUserMap.setMarker("Location of Service User", lat, long);
                 // resize Map in case window gets resized
                 if (window.addEventListener) {
                     window.addEventListener('resize', function () {
                         if (serviceUserMap) {
                             serviceUserMap.setCenter(lat, long);
-                            new safemotion.Utils().resizeMap();
+                            new safemotion.UtilsService().resizeMap();
                         }
                     }, true);
                 }
@@ -48,6 +46,7 @@ var safemotion;
         DetailController.$inject = [
             '$scope',
             '$routeParams',
+            '$http',
             'storage'
         ];
         return DetailController;

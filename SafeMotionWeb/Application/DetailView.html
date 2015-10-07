@@ -8,8 +8,8 @@
     <div class="row">
         <!-- Profile -->
         <div id="divProfile" class="col-sm-4 detailItem">
-            <div id="divProfileHeader" class="detailItemHeader">{{serviceUser.firstName}} {{serviceUser.lastName}}</div>
-            <img id="imgProfilePicture" ng-src="{{serviceUser.profilePicture}}" />
+            <div id="divProfileHeader" class="detailItemHeader">{{serviceUser.FirstName}} {{serviceUser.LastName}}</div>
+            <img id="imgProfilePicture" ng-src="{{serviceUser.ProfilePicture}}" />
         </div>
 
         <!-- Status -->
@@ -17,28 +17,28 @@
             <div id="divStatusHeader" class="detailItemHeader">Status</div>
 
             <div class="detailItemBorder">
-                <img class="imgStatusItem" src="Images/whitebackground.png" />
+                <img id="imgStatusBackground" class="imgStatusItem" src="Images/whitebackground.png" />
                 <div class="divSatusItemText">
 
                     <!-- battery level -->
                     <div class="col-xs-6 text-center">
                         <span class="detailStatusIcon glyphicon glyphicon-flash" style="color: yellow"></span>
                         <br />
-                        <span class="">{{serviceUser.batteryLevel}}% battery </span>
+                        <span class="">{{serviceUser.BatteryLevel}}% battery </span>
                     </div>
 
                     <!-- signal -->
                     <div class="col-xs-6 text-center">
                         <span class="detailStatusIcon glyphicon glyphicon-signal" style="color: yellow"></span>
                         <br />
-                        <span class="">Signal {{serviceUser.lastSignalMin}} min ago </span>
+                        <span class="">Signal {{serviceUser.LastSignalMin}} min ago </span>
                     </div>
 
                     <!-- alarm -->
                     <div class="col-xs-6 text-center">
                         <span class="detailStatusIcon glyphicon glyphicon-exclamation-sign" style="color: red"></span>
                         <br />
-                        <span class="">{{serviceUser.activeAlarms}} active alarm </span>
+                        <span class="">{{serviceUser.ActiveAlarms}} active alarm </span>
                     </div>
 
                     <!-- last movement -->

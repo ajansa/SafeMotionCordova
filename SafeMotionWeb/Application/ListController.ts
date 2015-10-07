@@ -7,11 +7,14 @@ module safemotion {
 
         public static $inject = [
             '$scope',
+            '$http',
             'storage'
         ];
 
-        constructor(private $scope: IServiceUserScope, private storage: MockupStorage) {
-            $scope.serviceUserList = storage.list();
+        constructor(private $scope: ListScopeInterface, private $http: XMLHttpRequest, private storage: StorageService) {
+
+            storage.list($scope, $http);
+
         }
     }
 }
