@@ -5,8 +5,8 @@ var safemotion;
         function StorageServiceMockup() {
             this._listViewData = null;
             this._detailViewData = null;
-            var i = 0;
             if (this._detailViewData == null) {
+                var i = 0;
                 this._detailViewData = new Array();
                 this._detailViewData.push(new safemotion.DetailViewModel("0001", "FirstName" + ++i, "LastName" + i, "Images/serviceuser.png", 20 * i, 5 * i, i, 51.480401, -0.110252));
                 this._detailViewData.push(new safemotion.DetailViewModel("0002", "FirstName" + ++i, "LastName" + i, "Images/serviceuser.png", 20 * i, 5 * i, i, 51.480401 + i / 20, -0.110252 - i / 20));
@@ -14,11 +14,12 @@ var safemotion;
                 this._detailViewData.push(new safemotion.DetailViewModel("0004", "FirstName" + ++i, "LastName" + i, "Images/serviceuser.png", 20 * i, 5 * i, i, 51.480401 + i / 20, -0.110252 + i / 20));
             }
             if (this._listViewData == null) {
+                var i = 0;
                 this._listViewData = new Array();
-                this._listViewData.push(new safemotion.ListViewModel("id0001", "FirstName" + ++i, "LastName" + i, 20 * i, 5 * i, i));
-                this._listViewData.push(new safemotion.ListViewModel("id0002", "FirstName" + ++i, "LastName" + i, 20 * i, 5 * i, i));
-                this._listViewData.push(new safemotion.ListViewModel("id0003", "FirstName" + ++i, "LastName" + i, 20 * i, 5 * i, i));
-                this._listViewData.push(new safemotion.ListViewModel("id0004", "FirstName" + ++i, "LastName" + i, 20 * i, 5 * i, i));
+                this._listViewData.push(new safemotion.ListViewModel("0001", "FirstName" + ++i, "LastName" + i, 20 * i, 5 * i, i));
+                this._listViewData.push(new safemotion.ListViewModel("0002", "FirstName" + ++i, "LastName" + i, 20 * i, 5 * i, i));
+                this._listViewData.push(new safemotion.ListViewModel("0003", "FirstName" + ++i, "LastName" + i, 20 * i, 5 * i, i));
+                this._listViewData.push(new safemotion.ListViewModel("0004", "FirstName" + ++i, "LastName" + i, 20 * i, 5 * i, i));
             }
         }
         StorageServiceMockup.prototype.list = function ($scope, $http) {

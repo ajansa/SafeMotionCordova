@@ -1,5 +1,4 @@
-body { font-size: 1.3vw; font-family: Raleway, Calibri, Verdana; background-color: #f2f2f2;}
-
+body { font-size: 1.2vw; font-family: Raleway, Calibri, Verdana; background-color: #f2f2f2;}
 
 /*  Login */
 .modal-dialog.login { width: 320px; margin-top: 10% }
@@ -15,14 +14,15 @@ body { font-size: 1.3vw; font-family: Raleway, Calibri, Verdana; background-colo
 #divForgotPwd { width: 100%; text-align: right; margin-top: 10px; cursor: pointer; color: #A81010;  }
 #divEmailLoginBtn { background-color: #A81010; }
 #spanRegister { cursor: pointer; color: #A81010; }
-.loginButton { width: 100%; height: 40px; text-align: center; margin-top: 10px; padding-top: 5px; font-weight: bold; font-size: 20px; color: white;  cursor: pointer; }
+.loginButton { position: relative; width: 100%; height: 40px; text-align: center; margin-top: 10px; padding-top: 5px; font-weight: bold; font-size: 20px; color: white;  cursor: pointer; }
+.loginButtonIcon { height: 24px; position: absolute; top: 0px; left: 0px; margin: 8px; }
 .loginField { width: 100%; height: 40px; margin-top: 10px; padding-left: 10px; }
 
 /* Navigation Bar */
-.navbar { width: 100%; height: 55px; font-size: 20px; padding-top: 10px; background-color: white !important; border-bottom: 1px solid lightgrey;   }
-.navLogo { height: 20px;  }
+.navbar { width: 100%; height: 50px; font-size: 18px; padding-top: 8px; background-color: white !important; border-bottom: 1px solid lightgrey;   }
+.navLogo { height: 16px;  }
 #divNavbarLeft { float: left; width: 70%}
-#divNavbarHamburger {float: left; margin-top: 4px; margin-left: 10px;  margin-right: 10px; cursor: pointer; }
+#divNavbarHamburger {float: left; margin-left: 10px;  padding-top: 3px; margin-right: 10px; cursor: pointer; }
 #divNavbar { background-color: white; }
 #spanUserNameText { margin-right: 10px; cursor: pointer; }
 #spanUserNameIcon { cursor: pointer; margin-right: 20px;  } 
@@ -33,26 +33,32 @@ body { font-size: 1.3vw; font-family: Raleway, Calibri, Verdana; background-colo
 .userMenuText { margin-left: 10px;}
 
 /* Side Bar */
-#sidebar { height: 100%; width: 300px; font-size: 20px; padding-top: 10px; background-color: white; border-right: 1px solid lightgrey; }
+#sidebar { height: 100%; width: 300px; font-size: 18px; padding-top: 10px; background-color: white; border-right: 1px solid lightgrey; }
 #sidebar a { color : black; text-decoration: none; cursor: pointer; }
-#divSidebarHamburger {float: left; margin-top: 4px; margin-left: 10px;  margin-right: 10px; cursor: pointer; }
+#divSidebarHamburger {float: left; margin-top: 3px; margin-left: 10px;  margin-right: 10px; cursor: pointer; }
 .sidebarText { margin-left: 10px;}
 #ulSidebarContent {margin-top: 10px;}
-#divContent { margin-top: 60px; margin-bottom: 50px; margin-right: 4%; margin-left: 4%; }
 
 /* Content */
-.contentContainer { background-color: white; border: 1px solid lightgrey; padding: 10px; margin-bottom: 10px; }
+#divContent { margin-top: 60px; margin-bottom: 10px; margin-right: 4%; margin-left: 4%; }
 
 /* List View */
-.listItem { background-color: white; border: 1px solid lightgrey; padding: 5px; padding-left: 10px; margin-bottom: 5px; font-size: 18px;  }
+.listItem { background-color: white; border: 1px solid lightgrey; padding: 5px; padding-left: 10px; font-size: 18px;  }
 .listItemName { font-weight: bold; }
 .listItemText { margin-right: 10px; }
 
 /* Detail View */
-.detailItemHeader { background-color: lightgrey; border: 1px solid lightgrey;  width: 100%; font-size: 1.5vw; padding: 3px; padding-left: 10px; font-weight: bold; }
+.row { margin: 0px !important; padding: 0px !important; }
+.col-sm-4 { margin: 0px !important; padding: 0px !important; }
+.detailContentContainer { }
+.detailItemHeader { background-color: lightgrey; width: 100%; font-size: 1.2vw;  padding: 3px; padding-left: 10px; padding-right: 10px;  font-weight: bold; border-left: solid 1px darkgrey; border-bottom: solid 1px darkgrey; }
+.detailItemHeaderGlyphicon { margin-left: 20px; }
+.detailItemHeaderText { float: left; }
+.detailItemHeaderOptions { padding-right: 6px; }
+
 .imgDetailItem {width: 100%}
 .imgStatusItem {width: 100%}
-.detailItemBorder { position: relative; border: 1px solid lightgrey; border-top: 0px; padding: 10px; }
+.detailItemBorder { position: relative; border: 1px solid lightgrey; border-top: 0px; }
 .divDetailItemText { position: absolute; top: 0; left: 0; width: 100%}
 .divSatusItemText { position: absolute; top: 0; left: 0; width: 100%}
 .detailItemDate { float: left; font-weight: bold; padding-left: 10px; margin-right: 10px; }
@@ -61,21 +67,21 @@ body { font-size: 1.3vw; font-family: Raleway, Calibri, Verdana; background-colo
 .messageSender { font-weight: bold; padding-right: 10px; }
 .messageAnswer { padding-right: 10px; }
 #imgProfilePicture { width: 100%; }
-#divMap { background-color: #CCC; margin-bottom: 3%; width: 100%; height: 100%;}
+#divMap { background-color: #CCC; width: 100%; height: 100%;}
 
 
 /* Mobile Devices */
 @media (max-width: 768px) {
     body { font-size: 18px; }
-    #divContent { margin-top: 55px; margin-right: 0px; margin-left: 0px; }
-    .modal-dialog.login { width: 100%; height: 100%; margin: 0px; margin-top: 55px; padding: 0px; }
+    #divContent { margin-top: 50px; margin-right: 0px; margin-left: 0px; }
+    .modal-dialog.login { width: 100%; height: 100%; margin: 0px; margin-top: 60px; padding: 0px; }
     .loginButton { width: 100%;  }
     .loginField { width: 100%; }
     .detailItemHeader { font-size: 18px; }
     .contentContainer { border: 0px; padding: 0px; }
     .detailStatusIcon { font-size: 13vw; }
     .imgDetailItem { display: none; }
-    .divDetailItemText { position:  inherit; width: 100%}
+    .divDetailItemText { position:  inherit; width: 100%; padding-bottom: 30px; }
 } 
 
 

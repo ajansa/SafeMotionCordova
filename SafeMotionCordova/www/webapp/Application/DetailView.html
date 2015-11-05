@@ -1,5 +1,5 @@
 ﻿<!-- Detail View -->
-<div id="divServiceUserDetail" class="contentContainer" ng-controller="detailController">
+<div id="divServiceUserDetail" class="detailContentContainer" ng-controller="detailController">
 
 
     <!-- ************ -->
@@ -8,37 +8,47 @@
     <div class="row">
         <!-- Profile -->
         <div id="divProfile" class="col-sm-4 detailItem">
-            <div id="divProfileHeader" class="detailItemHeader">{{serviceUser.firstName}} {{serviceUser.lastName}}</div>
-            <img id="imgProfilePicture" ng-src="{{serviceUser.profilePicture}}" />
+            <div id="divProfileHeader" class="detailItemHeader">
+                <div class="detailItemHeaderText">{{serviceUser.FirstName}} {{serviceUser.LastName}}</div>
+                <div class="detailItemHeaderOptions text-right">
+                    <span class="detailItemHeaderGlyphicon glyphicon glyphicon-option-vertical"></span>
+                </div>
+            </div>
+            <img id="imgProfilePicture" ng-src="{{serviceUser.ProfilePicture}}" />
         </div>
 
         <!-- Status -->
         <div id="divStatus" class="col-sm-4 detailItem">
-            <div id="divStatusHeader" class="detailItemHeader">Status</div>
+            <div id="divStatusHeader" class="detailItemHeader">
+                <div class="detailItemHeaderText">Status</div>
+                <div class="detailItemHeaderOptions text-right">
+                    <span class="detailItemHeaderGlyphicon glyphicon glyphicon-option-vertical"></span>
+                </div>
+            </div>
 
             <div class="detailItemBorder">
-                <img class="imgStatusItem" src="Images/whitebackground.png" />
+                <img id="imgStatusBackground" class="imgStatusItem" src="Images/whitebackground.png" />
                 <div class="divSatusItemText">
 
                     <!-- battery level -->
                     <div class="col-xs-6 text-center">
                         <span class="detailStatusIcon glyphicon glyphicon-flash" style="color: yellow"></span>
                         <br />
-                        <span class="">{{serviceUser.batteryLevel}}% battery </span>
+                        <span class="">{{serviceUser.BatteryLevel}}% battery </span>
                     </div>
 
                     <!-- signal -->
                     <div class="col-xs-6 text-center">
                         <span class="detailStatusIcon glyphicon glyphicon-signal" style="color: yellow"></span>
                         <br />
-                        <span class="">Signal {{serviceUser.lastSignalMin}} min ago </span>
+                        <span class="">Signal {{serviceUser.LastSignalMin}} min ago </span>
                     </div>
 
                     <!-- alarm -->
                     <div class="col-xs-6 text-center">
                         <span class="detailStatusIcon glyphicon glyphicon-exclamation-sign" style="color: red"></span>
                         <br />
-                        <span class="">{{serviceUser.activeAlarms}} active alarm </span>
+                        <span class="">{{serviceUser.ActiveAlarms}} active alarm </span>
                     </div>
 
                     <!-- last movement -->
@@ -55,7 +65,15 @@
 
         <!-- Location -->
         <div id="divLocation" class="col-sm-4 detailItem">
-            <div id="divMapHeader" class="detailItemHeader">Location</div>
+
+
+            <div id="divMapHeader" class="detailItemHeader">
+                <div class="detailItemHeaderText">Location</div>
+                <div class="detailItemHeaderOptions text-right">
+                    <span class="detailItemHeaderGlyphicon glyphicon glyphicon-refresh"></span>
+                    <span class="detailItemHeaderGlyphicon glyphicon glyphicon-option-vertical"></span>
+                </div>
+            </div>
             <div id="divMap"></div>
         </div>
 
@@ -68,7 +86,12 @@
 
         <!-- Alert -->
         <div id="divAlert" class="col-sm-4 detailItem">
-            <div id="divAlertHeader" class="detailItemHeader">Alert history</div>
+            <div id="divAlertHeader" class="detailItemHeader">
+                <div class="detailItemHeaderText">Alert history</div>
+                <div class="detailItemHeaderOptions text-right">
+                    <span class="detailItemHeaderGlyphicon glyphicon glyphicon-option-vertical"></span>
+                </div>
+            </div>
 
             <div class="detailItemBorder">
                 <img class="imgDetailItem" src="Images/whitebackground.png" />
@@ -89,7 +112,13 @@
 
         <!-- Message History -->
         <div id="divMessage" class="col-sm-4 detailItem">
-            <div class="detailItemHeader">Messages</div>
+            <div class="detailItemHeader">
+                <div class="detailItemHeaderText">Messages</div>
+                <div class="detailItemHeaderOptions text-right">
+                    <span class="detailItemHeaderGlyphicon glyphicon glyphicon-plus"></span>
+                    <span class="detailItemHeaderGlyphicon glyphicon glyphicon-option-vertical"></span>
+                </div>
+            </div>
 
             <div class="detailItemBorder">
                 <img class="imgDetailItem" src="Images/whitebackground.png" />
@@ -111,7 +140,14 @@
 
         <!-- Reminder -->
         <div id="divReminder" class="col-sm-4 detailItem">
-            <div class="detailItemHeader">Reminder history</div>
+            <div class="detailItemHeader">
+                <div class="detailItemHeaderText">Reminder</div>
+                <div class="detailItemHeaderOptions text-right">
+                    <span class="detailItemHeaderGlyphicon glyphicon glyphicon-calendar"></span>
+                    <span class="detailItemHeaderGlyphicon glyphicon glyphicon-plus"></span>
+                    <span class="detailItemHeaderGlyphicon glyphicon glyphicon-option-vertical"></span>
+                </div>
+            </div>
 
             <div class="detailItemBorder">
                 <img class="imgDetailItem" src="Images/whitebackground.png" />

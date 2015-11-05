@@ -55,9 +55,9 @@
 
     <!-- top navbar -->
     <div class="navbar navbar-fixed-top">
-        <div id="divNavbarLeft" class="text-left" data-toggle="modal" data-target="#sidebarModal">
-            <div id="divNavbarHamburger"><span class="glyphicon glyphicon-menu-hamburger"></span></div>
-            <img class="navLogo" src="Images/safeMotionLogo.png" />
+        <div id="divNavbarLeft" class="text-left">
+            <div id="divNavbarHamburger" data-toggle="modal" data-target="#sidebarModal"><span class="glyphicon glyphicon-menu-hamburger"></span></div>
+            <img class="navLogo" src="Images/safeMotionLogo.png" data-toggle="modal" data-target="#sidebarModal" />
         </div>
 
         <div id="divNavbarRight" class="text-right">
@@ -85,12 +85,18 @@
                 <img class="navLogo" src="./Images/safeMotionLogo.png" />
             </div>
             <ul id="ulSidebarContent" class="nav">
-                <li><a href="#/list" data-dismiss="modal"><span class="glyphicon glyphicon-home"></span><span class="sidebarText">Home</span></a></li>
-                <li><a href="#/list" data-dismiss="modal"><span class="glyphicon glyphicon-exclamation-sign"></span><span class="sidebarText">Alerts</span></a></li>
-                <li><a href="#/list" data-dismiss="modal"><span class="glyphicon glyphicon-user"></span><span class="sidebarText">Relatives</span></a></li>
-                <li><a href="#/list" data-dismiss="modal"><span class="glyphicon glyphicon-calendar"></span><span class="sidebarText">Calendar</span></a></li>
-                <li><a href="#/list" data-dismiss="modal"><span class="glyphicon glyphicon-envelope"></span><span class="sidebarText">Messages</span></a></li>
-                <li><a href="#/list" data-dismiss="modal"><span class="glyphicon glyphicon-cog"></span><span class="sidebarText">Settings</span></a></li>
+
+                <li><a href="#/detail:0001"><img class="sidebarServiceUserPicture" src="./Images/serviceuser_circle.png" /><span class="sidebarServiceUserName">Firstname1 Lastname1</span><span class="sidebarUserCollapseIcon glyphicon glyphicon-menu-up"></span></a></li>
+                        <li><a href="#/detail:0001" data-dismiss="modal"><span class="sidebaricon glyphicon glyphicon-earphone"></span><span class="sidebarText">Call</span></a></li>
+                        <li><a href="#/detail:0001" data-dismiss="modal"><span class="sidebaricon glyphicon glyphicon-envelope"></span><span class="sidebarText">Send Message</span></a></li>
+                        <li><a href="#/detail:0001" data-dismiss="modal"><span class="sidebaricon glyphicon glyphicon-link"></span><span class="sidebarText">Alerting chain</span></a></li>
+                        <li><a href="#/detail:0001" data-dismiss="modal"><span class="sidebaricon glyphicon glyphicon-fullscreen"></span><span class="sidebarText">Movement Zones</span></a></li>
+                        <li><a href="#/detail:0001" data-dismiss="modal"><span class="sidebaricon glyphicon glyphicon-user"></span><span class="sidebarText">Phone Book</span></a></li>
+                        <li><a href="#/detail:0001" data-dismiss="modal"><span class="sidebaricon glyphicon glyphicon-calendar"></span><span class="sidebarText">Reminder</span></a></li>
+                        <li><a href="#/detail:0001" data-dismiss="modal"><span class="sidebaricon glyphicon glyphicon-cog"></span><span class="sidebarText">Settings</span></a></li>
+                <li><a href="#/detail:0002"><img class="sidebarServiceUserPicture" src="./Images/serviceuser_circle.png" /><span class="sidebarServiceUserName">Firstname2 Lastname2</span><span class="sidebarUserCollapseIcon glyphicon glyphicon-menu-down"></span></a></li>
+                <li><a href="#/detail:0003"><img class="sidebarServiceUserPicture" src="./Images/serviceuser_circle.png" /><span class="sidebarServiceUserName">Firstname3 Lastname3</span><span class="sidebarUserCollapseIcon glyphicon glyphicon-menu-down"></span></a></li>
+                <li><a href="#/list"><span id="sidebarShowAllIcon">Show All...</span></a></li>
             </ul>
         </div>
     </div>

@@ -3,13 +3,15 @@ var safemotion;
 (function (safemotion) {
     'use strict';
     var ListController = (function () {
-        function ListController($scope, storage) {
+        function ListController($scope, $http, storage) {
             this.$scope = $scope;
+            this.$http = $http;
             this.storage = storage;
-            $scope.serviceUserList = storage.list();
+            storage.list($scope, $http);
         }
         ListController.$inject = [
             '$scope',
+            '$http',
             'storage'
         ];
         return ListController;

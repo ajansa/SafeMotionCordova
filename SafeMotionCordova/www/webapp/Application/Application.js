@@ -23,7 +23,7 @@ var safemotion;
     'use strict';
     // app config
     var safemotionApp = angular.module('app', ['ngRoute'])
-        .service('storage', safemotion.MockupStorage)
+        .service('storage', safemotion.StorageServiceMockup)
         .controller('loginController', safemotion.LoginController)
         .controller('detailController', safemotion.DetailController)
         .controller('listController', safemotion.ListController)

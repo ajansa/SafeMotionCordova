@@ -45,6 +45,7 @@
     <Content Include="Images\safeMotionLogo.png" />
     <Content Include="Images\serviceuser.png" />
     <Content Include="Images\serviceuser2.png" />
+    <Content Include="Images\serviceuser_circle.png" />
     <Content Include="Images\serviceuser_square.jpg" />
     <Content Include="Images\settings.png" />
     <Content Include="Images\signal_green.jpg" />

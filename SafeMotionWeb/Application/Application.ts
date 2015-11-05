@@ -24,7 +24,7 @@ module safemotion {
 
     // app config
     var safemotionApp = angular.module('app', ['ngRoute'])
-        .service('storage', StorageService)
+        .service('storage', StorageServiceMockup)
         .controller('loginController', LoginController)
         .controller('detailController', DetailController)
         .controller('listController', ListController)

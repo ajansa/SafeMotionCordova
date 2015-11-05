@@ -10,34 +10,46 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="Application/app.css">
-      <publishTime>10/06/2015 01:41:29</publishTime>
+      <publishTime>10/08/2015 01:18:43</publishTime>
     </File>
     <File Include="Application/Application.js">
-      <publishTime>10/06/2015 01:23:33</publishTime>
+      <publishTime>10/08/2015 01:02:31</publishTime>
     </File>
     <File Include="Application/DetailController.js">
-      <publishTime>10/06/2015 01:23:33</publishTime>
+      <publishTime>10/08/2015 01:02:31</publishTime>
+    </File>
+    <File Include="Application/DetailScopeInterface.js">
+      <publishTime>10/08/2015 01:02:31</publishTime>
     </File>
     <File Include="Application/DetailView.html">
-      <publishTime>10/06/2015 01:48:09</publishTime>
+      <publishTime>10/08/2015 00:53:45</publishTime>
+    </File>
+    <File Include="Application/DetailViewModel.js">
+      <publishTime>10/08/2015 01:02:31</publishTime>
     </File>
     <File Include="Application/GoogleMapService.js">
-      <publishTime>10/06/2015 01:23:33</publishTime>
+      <publishTime>10/08/2015 01:02:31</publishTime>
     </File>
     <File Include="Application/IServiceUserScopeInterface.js">
       <publishTime>10/06/2015 01:23:33</publishTime>
     </File>
     <File Include="Application/ListController.js">
-      <publishTime>10/06/2015 01:23:33</publishTime>
+      <publishTime>10/08/2015 01:02:31</publishTime>
+    </File>
+    <File Include="Application/ListScopeInterface.js">
+      <publishTime>10/08/2015 01:02:31</publishTime>
     </File>
     <File Include="Application/ListView.html">
-      <publishTime>10/06/2015 01:23:16</publishTime>
+      <publishTime>10/07/2015 15:18:34</publishTime>
+    </File>
+    <File Include="Application/ListViewModel.js">
+      <publishTime>10/08/2015 01:02:31</publishTime>
     </File>
     <File Include="Application/LoginController.js">
-      <publishTime>10/06/2015 01:23:33</publishTime>
+      <publishTime>10/08/2015 01:02:31</publishTime>
     </File>
     <File Include="Application/LoginView.html">
-      <publishTime>10/06/2015 00:59:20</publishTime>
+      <publishTime>10/07/2015 15:38:16</publishTime>
     </File>
     <File Include="Application/MockupStorageService.js">
       <publishTime>10/06/2015 01:23:33</publishTime>
@@ -45,14 +57,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Application/ServiceUserModel.js">
       <publishTime>10/06/2015 01:23:33</publishTime>
     </File>
+    <File Include="Application/StorageService.js">
+      <publishTime>10/08/2015 01:02:30</publishTime>
+    </File>
+    <File Include="Application/StorageServiceInterface.js">
+      <publishTime>10/08/2015 01:02:31</publishTime>
+    </File>
+    <File Include="Application/StorageServiceMockup.js">
+      <publishTime>10/08/2015 01:02:30</publishTime>
+    </File>
     <File Include="Application/UtilsService.js">
-      <publishTime>10/06/2015 01:23:33</publishTime>
+      <publishTime>10/08/2015 01:02:30</publishTime>
     </File>
     <File Include="Application/_app.js">
-      <publishTime>10/06/2015 01:23:33</publishTime>
+      <publishTime>10/08/2015 01:02:31</publishTime>
     </File>
     <File Include="bin/SafeMotionWeb.dll">
-      <publishTime>10/06/2015 01:25:48</publishTime>
+      <publishTime>10/08/2015 01:03:21</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
       <publishTime>10/05/2015 20:10:09</publishTime>
@@ -102,6 +123,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Images/carecam.jpg">
       <publishTime>09/29/2015 02:37:14</publishTime>
     </File>
+    <File Include="Images/facebook_icon.jpg">
+      <publishTime>10/07/2015 15:40:00</publishTime>
+    </File>
+    <File Include="Images/google_icon.jpg">
+      <publishTime>10/07/2015 15:36:22</publishTime>
+    </File>
     <File Include="Images/loginBackground.png">
       <publishTime>10/01/2015 12:05:46</publishTime>
     </File>
@@ -109,7 +136,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/01/2015 12:06:11</publishTime>
     </File>
     <File Include="Images/logo_icon.png">
-      <publishTime>09/29/2015 02:37:14</publishTime>
+      <publishTime>10/07/2015 15:24:07</publishTime>
     </File>
     <File Include="Images/safeMotionLogo.png">
       <publishTime>09/29/2015 02:37:14</publishTime>
@@ -142,7 +169,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/29/2015 02:37:14</publishTime>
     </File>
     <File Include="index.html">
-      <publishTime>10/06/2015 01:43:02</publishTime>
+      <publishTime>10/08/2015 00:56:10</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>10/05/2015 20:11:43</publishTime>
@@ -184,7 +211,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/05/2015 20:09:42</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>10/06/2015 01:25:48</publishTime>
+      <publishTime>10/08/2015 01:03:22</publishTime>
     </File>
   </ItemGroup>
 </Project>
